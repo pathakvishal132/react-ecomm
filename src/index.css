@@ -1,13 +1,145 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.header{
+   
+    padding-top: 50px;
+    height: 22pc;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.3pc;
+    line-height: 0.5;
+    background-size: cover;
+    background-position: 50%;
+    color : white;
+    margin-top: 2pc;
+    
+    font-family: 'OnePlus Sans Regular','Helvetica Neue',Helvetica,Arial,sans-serif,system-ui;
+
+    background-image: url(https://oasis.opstatics.com/content/dam/oasis/page/2021/new-homepage/in/subscribe/Subscribe-l.jpg);
+    background-repeat: no-repeat;
+}
+   /* font-feature-settings: "salt"; */
+   
+
+h3{
+    font-weight: 100;
+    font-size: 1pc;
+    margin:0.5 ;
+    text-align: center;
+}
+h1{
+    font-weight:300;
+    font-size: 2.8pc;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+a{
+    color: #fff;
 }
+ 
+.link{
+    margin:45px;
+    font-size: small;
+    
+}
+
+/* email */
+.form-control {
+    height: 30px;
+    width: 10pc;
+    border-color: #ffffff;
+    border-radius: 2px 0px 0px 2px;
+}
+
+
+.form-control:focus {
+box-shadow: none !important;
+border: 2px solid #243c4f;
+border-color: none;
+
+}
+
+
+.btn {
+min-height: 32px; 
+width: 10pc;
+border-radius:0;
+background: #243c4f;
+color: #fff;
+font-weight:300;
+}
+
+.btn:hover {
+
+background: red;
+color: #fff
+
+}
+
+
+.form-control:focus {
+    color: #495057;
+    background-color: rgb(255, 255, 255);
+    border-color: white;
+}
+
+
+/* //<------------------------------------CSS OF MAIN NAVBAR-----------------------------------> */
+.nav{
+    height: 80px;
+}
+.nav img{
+    padding: 10px;
+    height: 80px;
+    width: 80px;
+}
+.nav ul li{
+    font-size: 22px;
+    font-weight: 200;
+    display: inline-block;
+    margin: 20px;
+}
+
+
+.nav ul{
+    justify-content: center;
+}
+
+.right{
+   position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.Account{
+    display: inline-block;
+    padding: 20px;
+}
+.cart_icon{
+    display: inline-block;
+    padding: 20px;
+}
+.vendor_icon{
+    display: inline-block;
+    padding: 20px;
+}
+
+/* //<------------------------------------ close CSS OF MAIN NAVBAR-----------------------------------> */
+
+/* //<------------------------------------ Start CSS OF second grid-----------------------------------> */
+
+figcaption{
+    position: absolute;
+    bottom: 3rem;
+    margin: 0 13rem;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+
+
+/* //<------------------------------------ close CSS OF second grid-----------------------------------> */
